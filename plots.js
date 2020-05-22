@@ -26,8 +26,8 @@ function buildMetadata(sample) {
 function buildCharts(sample) {
 
   // @TODO: Using `d3.json` to fetch the sample data for the plots
-  var url = `/samples/${sample}`;
-  d3.json(url).then(function(data) {
+  d3.json("samples.json").then((data) => {
+    var metadata = data.metadata;
 
     // @TODO: Building a Bubble Chart using the sample data
     var xValues = data.otu_ids;
