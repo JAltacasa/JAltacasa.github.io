@@ -1,0 +1,26 @@
+h1 { 
+	font-weight bold;
+	
+	 }
+.jumbotron {
+	background-color pink;
+	color teal;
+}
+
+#Ironbeard {
+	color teal;}
+
+#panelMan {
+	width 250px; 
+	height 250px;
+}
+
+
+
+.panel-primary.panel-heading {
+  color white;
+  font-weight bold;
+  background-color teal;
+  border-color teal;
+  font-size 18px;
+}
